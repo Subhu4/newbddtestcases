@@ -1,0 +1,2 @@
+testCaseId,productName,interestedIn,quantity,unit,supplierPreference,mobileNumber,emptyValue,zeroQuantity,negativeQuantity,productField,quantityField
+TS_0063 & TS_0064 & TS_0065 & TS_0066,Office Chairs,Computer Chairs,25,Piece,All India,8070987890,,0,-1,product,quantity

@@ -1,0 +1,26 @@
+{
+  "name": "exportersindia_bdd_subham",
+  "version": "1.0.0",
+  "description": "Member 4 (Subham Maharana) - ExportersIndia Buyer Requirements & Buy Leads - Playwright + Cucumber BDD",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags @Smoke",
+    "test:regression": "cucumber-js --tags @Regression",
+    "test:positive": "cucumber-js --tags @Positive",
+    "test:negative": "cucumber-js --tags @Negative",
+    "test:dry": "cucumber-js --dry-run",
+    "report": "start reports/cucumber-report.html",
+    "allure:generate": "allure generate ./allure-results -o ./allure-report",
+    "allure:open": "allure open ./allure-report"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "allure": "^3.0.0",
+    "allure-cucumberjs": "^3.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,2 @@
+testCaseId,preferenceOptions,specificStatesOption,states,productName,interestedIn,quantity,unit,supplierPreference,invalidMobile,mobileField
+TS_0067 & TS_0068 & TS_0069,All India, Near Me, Specific States,Specific States,Andaman & Nicobar islands, Andhra Pradesh, Arunachal Pradesh,Office Chairs,Computer Chairs,25,Piece,All India,12345,mobile
